@@ -1,0 +1,12 @@
+// Button
+.common-btn {
+    background-image: linear-gradient(to right, #0da8e8, #00b1e7, #00b9e3, #00c1de, #0dc8d7);
+    color: $white-color;
+    padding: 10px 18px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.common-btn:hover {
+    color: $white-color;
+}

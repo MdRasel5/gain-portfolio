@@ -1,0 +1,29 @@
+// Header Area
+.header-area {
+    background-color: $secondary-color;
+
+    .logo-area {
+        a {
+            font-size: 48px;
+            color: $white-color;
+        }
+    }
+
+    .header-action {
+        display: flex;
+    }
+
+    .action-icons {
+        a {
+            color: $white-color;
+
+            i {
+                font-size: 16px;
+                margin-left: 10px;
+            }
+        }
+
+        margin-right: 20px;
+        color: $white-color;
+    }
+}

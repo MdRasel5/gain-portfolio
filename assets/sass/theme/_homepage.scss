@@ -1,0 +1,56 @@
+// Hero Section
+.hero-section {
+    background-color: $secondary-color;
+
+    .hero-contants {
+        span {
+            margin-bottom: 15px !important;
+            font-weight: 500;
+            display: inline-block;
+        }
+
+        h2 {
+            margin-bottom: 30px !important;
+            color: $white-color;
+            font-weight: bold;
+
+            span {
+                color: $primary-color;
+            }
+        }
+
+        p {
+            margin-bottom: 30px;
+        }
+
+        form {
+            display: flex;
+            position: relative;
+            max-width: 320px;
+            font-size: 14px;
+            color: $paragraph-color;
+
+            input[type="email"] {
+                background-color: $paragraph-color;
+                border: none;
+                outline: none;
+                width: 100%;
+                padding: 20px;
+                border-radius: 6px;
+            }
+
+            button {
+                border: none;
+                outline: none;
+                position: absolute;
+                right: 5%;
+                top: 14%;
+            }
+
+        }
+    }
+
+    .hero-image {
+        max-width: 315px;
+    }
+}

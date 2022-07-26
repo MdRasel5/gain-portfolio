@@ -1,0 +1,53 @@
+/*-------------------------------------------------------------
+Template Name: Gain Portfolio
+Template URL: 
+Author Name: Md Rasel
+Author URL: mdrasel.com
+Version: 1.0
+Description: 
+Tags: portfolio
+Text Domain: Gain
+-------------------------------------------------------------*/
+
+/*------------------------------------------------------------- 
+TABLE OF CONTENTS: 
+---------------------------------------------------------------
+>> Author CSS
+>> Navbar
+>> Header Section
+>> Footer Section
+>> Breadcrumb Section
+>> Preloader
+>> Button 
+>> Form
+>> Theme
+>> Homepage 1
+>> Blog Page
+>> Blog Single Page
+>> Homepage 3
+>> Footer 3
+>> Header 2
+>> Homepage 2
+>> Footer 2
+--------------------------------------------------------------*/
+
+// Setting
+@import 'settings/variable';
+@import 'settings/mixin';
+
+// Base
+@import 'base/base';
+
+// Layout
+@import 'layout/navbar';
+@import 'layout/header';
+@import 'layout/footer';
+
+// Module
+@import 'module/button';
+
+// Theme 
+@import 'theme/theme';
+@import 'theme/homepage';
+@import 'theme/blog';
+@import 'theme/blog-single';
