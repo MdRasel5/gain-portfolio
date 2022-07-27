@@ -1,7 +1,7 @@
 // Hero Banner Slider
 $(document).ready(function(){
  $('.hero-slider-active').slick({
-        slidesToShow: 5,
+        slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,
         arrows: true,
