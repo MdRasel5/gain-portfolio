@@ -3,6 +3,39 @@
     background-color: $secondary-color;
     padding: 40px 0;
 
+    .shape-images {
+        .shape1 {
+            position: absolute;
+            top: 0;
+            left: -50px;
+            max-width: 550px;
+        }
+
+        .shape2 {
+            position: absolute;
+            top: 25%;
+            left: 784px;
+            max-width: 550px;
+        }
+
+        .shape3 {
+            position: absolute;
+            top: 54%;
+            left: 54%;
+            width: 23px;
+        }
+
+        .shape4 {
+            position: absolute;
+            top: 38%;
+            left: 51%;
+            width: 23px;
+        }
+
+
+
+    }
+
     .hero-contants {
         span {
             font-weight: 500;
@@ -174,7 +207,7 @@
         border: 2px solid #192539;
 
         h5 {
-            font-weight: 600;
+            font-weight: bold;
             margin-bottom: 30px;
 
             a {
